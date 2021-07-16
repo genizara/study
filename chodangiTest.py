@@ -1,6 +1,13 @@
 # 2021.07.14 186p
 
-sungadae = ['아람', '지선', '보람', '홍주', '민지', '리나', '즤희', '태원']
-print(len(sungadae))
-sungadae.append('정달')
-print(len(sungadae))
+scores = [11, 22, 33, 44, 55]
+print(scores)
+ss = scores[1:3]
+print(scores)
+print(ss)
+print(scores[2:])
+print(scores[:4])
+kk = scores[:]
+scores[3] = 99
+print(kk)
+print(scores)
