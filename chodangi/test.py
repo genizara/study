@@ -1,5 +1,7 @@
-import book
+a = []
 
-reader = book.BookReader()
-reader.name = '엄정달'
-print(reader.read_book() + ' 후후후')
+for x in range(1000000):
+    a.append(str(1))
+
+
+print(''.join(a))
